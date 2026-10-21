@@ -1,0 +1,4 @@
+interface:
+  display_name: "Learning from Experience"
+  short_description: "Turn discoveries into usable, revisable knowledge"
+  default_prompt: "Use $learning-from-experience to examine what this experience supports, preserve its limits, and decide where the finding applies."
