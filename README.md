@@ -4,12 +4,13 @@ An agent skill for turning observations into knowledge that can be reused,
 checked, and revised. It helps an agent distinguish what happened, what the
 evidence supports, and whether a finding applies to the current task.
 
-Use it when an experiment reveals something reusable, a result is surprising,
-or an old lesson meets new conditions. Routine retrieval or note-taking alone
-does not require the workflow.
+Use it when a user corrects the agent's work, an experiment reveals something
+reusable, a result is surprising, or an old lesson meets new conditions.
 
 ## What it helps with
 
+- Fix the work the user corrected, trace the mistake to its source, and check
+  whether the change addresses the same failure on a comparable task.
 - Preserve an observation with its source, conditions, and limits.
 - Separate a plausible interpretation from an established result.
 - Assess whether a technique transfers to a different goal or environment.

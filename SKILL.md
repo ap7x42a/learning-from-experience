@@ -1,6 +1,6 @@
 ---
 name: learning-from-experience
-description: Use when exploratory trials reveal a reusable finding, when interpreting a surprising result, or when applying or correcting remembered knowledge under changed conditions. Routine retrieval or recording alone does not require this workflow.
+description: Use when a user corrects an agent's work, an exploratory trial reveals a reusable finding, a result is surprising, or remembered knowledge needs reassessment under changed conditions. Routine retrieval or recording alone does not require this workflow.
 ---
 
 # Learning from Experience
@@ -12,6 +12,25 @@ possibility is an option; its application is a decision made in context.
 Use the relevant parts during the user's current work, including open-ended
 exploration they requested. Discoveries may have value for later tasks; recording
 a lesson does not assign future work.
+
+## When a user corrects your work
+
+A correction calls for learning and mitigation by default. Fix the affected
+answer or deliverable and carry forward the rest of the user's request. Use the
+authorization already given. If the user tells you to stop a particular action,
+honor that boundary while carrying out any corrective work they still request.
+
+Trace the mistake to the decision that produced it. Compare the instructions
+or inputs available at that point with the action you took. If a prompt, skill,
+or code path was wrong, repair the source that future runs actually use, within
+the scope of the task. If the instruction was already clear, find where it was
+skipped and change how it gets applied there.
+
+Check the corrected result against the user's request. To assess whether a
+change prevents recurrence, look at the next relevant decision or exercise the
+affected behavior on a comparable case. Report what you fixed, what you checked,
+and what remains unverified. A written lesson preserves the finding. Evidence
+of better behavior comes from what the agent subsequently does.
 
 ## Explore and notice
 
